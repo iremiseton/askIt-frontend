@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+.Nav {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.NavTitle {
+    font-size: 30px;
+}
