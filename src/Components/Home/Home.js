@@ -9,16 +9,16 @@ export default class Home extends Component {
   	render() {
 		return (
 			<div className="Home">
-				<Nav />
 
-                <div className="container-fluid">
-                    <div className="row h-100">
+                <div className="container-fluid" style={{minHeight: 100 + "vh"}}>
+                    <div className="row" style={{minHeight: 100 + "vh"}}>
 
-                        <div className="col-lg-2 col-md-4 col-sm-12 border-right">
+                        <div className="col-lg-2 col-md-4 col-sm-12 border-right" style={{minHeight: 100 + "vh"}}>
                             <UserPanel />
                         </div>
 
-                        <div className="col-lg-7 col-md-8 col-sm-12 bg-light pt-3 border-right">
+                        <div className="col-lg-10 col-md-8 col-sm-12 bg-light pt-3" style={{minHeight: 100 + "vh"}}>
+				            <Nav />
                             <Posts />
                         </div>
 

@@ -7,13 +7,12 @@ export default class UserPanel extends Component {
   	render() {
 		return (
 			<div className="UserPanel h-100 d-flex flex-column">
-				
-                {/* Username */}
+
+                {/* Logo */}
                 <div className="card border-0 pt-5">
-                    <h5 className="text-center">
-                        <span className="fa fa-child mr-2"></span>
-                        Username
-                    </h5>
+                    <h1 className="text-center">
+                        AskIt
+                    </h1>
                     <hr />
                 </div>
 
@@ -36,23 +35,23 @@ export default class UserPanel extends Component {
 
                     <br />
 
-                    <h6>Pierre Le FIerere<span className="text-success text-right">[online]</span></h6>
-                    <h6>Filip Kalioioio <span className="text-success">[online]</span></h6>
-                    <h6>Erik ELgrymr <span className="text-success">[online]</span></h6>
-                    <h6>Dachri master 127 <span className="text-danger">[offline]</span></h6>
-                    <h6>Abra danger dager <span className="text-danger">[offline]</span></h6>
+                    <h6>@pierre<span className="ml-2 badge badge-pill badge-success">online</span></h6>
+                    <h6>@iremise<span className="ml-2 badge badge-pill badge-success">online</span></h6>
+                    <h6>@elg<span className="ml-2 badge badge-pill badge-success">online</span></h6>
+                    <h6>@dachri<span className="ml-2 badge badge-pill badge-danger">offline</span></h6>
+                    <h6>@abri<span className="ml-2 badge badge-pill badge-danger">offline</span></h6>
 
                     <br />
                     <a href="localhost" className="text-center">Show more</a>
                     <hr />
                 </div>
 
-                {/* Follows */}
+                {/* Followed tags */}
 
                 <div className="card border-0">
                     <h5 className="text-center">
                         <span className="fa fa-code-fork mr-2"></span>
-                        Follows
+                        Followed tags
                     </h5>
 
                     <br />
@@ -62,16 +61,15 @@ export default class UserPanel extends Component {
                         className="form-control" 
                         aria-label="Small"
                         aria-describedby="inputGroup-sizing-sm"
-                        placeholder="Search by username..."
+                        placeholder="Search by tags..."
                     />
 
                     <br />
 
-                    <h6>Pierre Le FIerere</h6>
-                    <h6>Filip Kalioioio</h6>
-                    <h6>Erik ELgrymr</h6>
-                    <h6>Dachri master 127</h6>
-                    <h6>Abra danger dager</h6>
+                    <h6>Maths</h6>
+                    <h6>Swedish</h6>
+                    <h6>Cars</h6>
+                    <h6>Memes</h6>
 
                     <br />
 
