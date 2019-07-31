@@ -57,7 +57,6 @@ export default class Posts extends Component {
 
         if (isLoading) { return <p>Loading ...</p> }
 
-
 		return (
 			<div className="Posts row justify-content-center">
                 {hits.map(post => 
@@ -69,10 +68,11 @@ export default class Posts extends Component {
                         <a href={post._id} style={{color: "gray"}} className="btn bg-light">More info</a>
                     </div>
                 )}        
-                {this.createFakeData()}    
 			</div>
 		);
 	}
 }
+
+
 
 
