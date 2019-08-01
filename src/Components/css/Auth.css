@@ -1,0 +1,32 @@
+.auth-container{
+    background: linear-gradient(270deg, #55f1f5, #da55f5, #48fc99);
+    background-size: 600% 600%;
+
+    -webkit-animation: auth-bg-animate 30s ease infinite;
+    -moz-animation: auth-bg-animate 30s ease infinite;
+    -o-animation: auth-bg-animate 30s ease infinite;
+    animation: auth-bg-animate 30s ease infinite;
+}
+
+
+
+@-webkit-keyframes auth-bg-animate {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes auth-bg-animate {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes auth-bg-animate {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes auth-bg-animate { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

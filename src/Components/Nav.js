@@ -9,7 +9,7 @@ export default class Nav extends Component {
 			<nav className="navbar navbar-expand-lg navbar-light bg-transparent mb-5">
 
 				<div className="nav-item">
-					<a class="nav-link" href="localhost:3000">Dashboard</a>
+					<a className="nav-link" href="localhost:3000">Dashboard</a>
 				</div>
 				
 				<div className="navbar-nav ml-auto">
@@ -18,7 +18,7 @@ export default class Nav extends Component {
 						<div className="input-group rounded-pill border border-dark overflow-hidden mb-3">
 							<input className="form-control border-0 rounded-0 bg-transparent" type="text" placeholder="Search" aria-label="Search" />
 							<div className="input-group-append">
-								<span className="input-group-text border-0 rounded-0 bg-transparent"><i class="material-icons">search</i></span>
+								<span className="input-group-text border-0 rounded-0 bg-transparent"><i className="material-icons">search</i></span>
 							</div>
 						</div>
 					</form>
