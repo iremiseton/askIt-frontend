@@ -39,6 +39,11 @@ export default class Nav extends Component {
 						<a className="nav-link" href="localhost:3000"><i className="material-icons">settings</i></a>
 					</div>
 
+					<div className="nav-item" data-toggle="tooltip" data-placement="bottom" title="Log in">
+						<a className="nav-link" href="localhost:3000"><i class="material-icons">account_circle</i></a>
+					</div>
+					
+
 				</div>
 			</nav>
 		);
